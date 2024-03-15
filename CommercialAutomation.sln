@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommercialAutomation.Web", "CommercialAutomation.Web\CommercialAutomation.Web.csproj", "{94F1D126-323F-46FF-8AFD-B25CFDEB18EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A59E0685-0C36-4030-B7C8-84909DB602D7} = {A59E0685-0C36-4030-B7C8-84909DB602D7}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommercialAutomation.Data", "CommercialAutomation.Data\CommercialAutomation.Data.csproj", "{A59E0685-0C36-4030-B7C8-84909DB602D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94F1D126-323F-46FF-8AFD-B25CFDEB18EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94F1D126-323F-46FF-8AFD-B25CFDEB18EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94F1D126-323F-46FF-8AFD-B25CFDEB18EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94F1D126-323F-46FF-8AFD-B25CFDEB18EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59E0685-0C36-4030-B7C8-84909DB602D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59E0685-0C36-4030-B7C8-84909DB602D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59E0685-0C36-4030-B7C8-84909DB602D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59E0685-0C36-4030-B7C8-84909DB602D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA54929E-66C0-4ECA-9FF1-66E860386554}
+	EndGlobalSection
+EndGlobal
